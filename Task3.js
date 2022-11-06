@@ -1,0 +1,11 @@
+A.  Ans: const cargoHold=['oxygen tanks', 'space suits', 'parrot', 'instruction manual', 'meal packs', 'slinky', 'security blanket']; 
+cargoHold.splice(3,0,'keys');
+ console.log(cargoHold);
+B. Ans: const cargoHold=['oxygen tanks', 'space suits', 'parrot', 'instruction manual', 'meal packs',  'slinky', 'security blanket'];
+cargoHold.splice(3,1);
+console.log(cargoHold);
+C. Ans: const cargoHold=['oxygen tanks', 'space suits', 'parrot', 'instruction manual', 'meal packs', 'slinky', 'security blanket'];
+cargoHold.splice(2,1,'cat');
+cargoHold.splice(3,1,'fob');
+cargoHold.splice(4,1,'string cheese');
+console.log(cargoHold);

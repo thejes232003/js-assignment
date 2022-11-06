@@ -1,0 +1,14 @@
+A. Ans: let holdCabinet1=['duct tape','gun',3.14,false,6.022e23];
+let holdCabinet2=['orange drink','nerf toys','camera',42,'parship'];
+holdCabinet1 = holdCabinet1.concat(holdCabinet2);
+console.log(holdCabinet1);    
+B. Ans: let holdCabinet1=['duct tape','gun',3.14,false,6.022e23];
+let holdCabinet2=['orange drink','nerf toys','camera',42,'parship'];
+holdCabinet1=holdCabinet1.slice(0,2);
+holdCabinet2=holdCabinet2.slice(0,2);
+console.log(holdCabinet1,holdCabinet2);
+C. Ans: let holdCabinet1=['duct tape','gun',3.14,false,6.022e23];
+let holdCabinet2=['orange drink','nerf toys','camera',42,'parship'];
+holdCabinet1.reverse();
+       holdCabinet2.sort();
+console.log(holdCabinet1,holdCabinet2);

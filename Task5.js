@@ -1,0 +1,15 @@
+A. Ans: str='In space, no one can heat you code.';
+console.log(str.split());
+console.log(str.split('e'));
+console.log(str.split(' '));
+console.log(str.split(''));
+B. Ans: let arr=['B','n','n',5];
+console.log(arr.join());
+console.log(arr.join('e'));
+console.log(arr.join(' '));
+console.log(arr.join(''));
+D. Ans: let arr="water,space suite,food,plasma,sword,batteries";
+arr=arr.toUpperCase();
+arr=arr.split(',');
+arr=arr.join();
+console.log(arr);
